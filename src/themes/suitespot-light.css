@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700&display=swap');
+
+:host.sl-theme-suitespot-light,
+:root.sl-theme-suitespot-light {
+  color-scheme: light;
+
+  --sl-font-sans: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  /*
+   * Color Primitives
+   */
+
+  --sl-color-primary-50: hsla(180, 90%, 95%, 1);
+  --sl-color-primary-100: hsla(180, 80%, 92%, 1);
+  --sl-color-primary-200: hsla(180, 70%, 80%, 1);
+  --sl-color-primary-300: hsla(180, 92%, 42%, 1);
+  --sl-color-primary-400: hsla(180, 90%, 32%, 1);
+  --sl-color-primary-500: hsla(180, 84%, 30%, 1);
+  --sl-color-primary-600: hsla(180, 78%, 28%, 1);
+  --sl-color-primary-700: hsla(180, 73%, 25%, 1);
+  --sl-color-primary-800: hsla(180, 70%, 23%, 1);
+  --sl-color-primary-900: hsla(180, 60%, 20%, 1);
+  --sl-color-primary-950: hsla(180, 50%, 15%, 1);
+
+  --sl-color-neutral-800: hsla(217, 23%, 27%, 1);
+
+  /* Focus Properties */
+  --sl-input-focus-ring-color: hsl(220 43% 11% / 5%);
+
+  --sl-border-radius-small: 0.1875rem;
+  --sl-border-radius-medium: 0.5rem;
+  --sl-border-radius-large: 0.8rem;
+  --sl-border-radius-x-large: 1rem;
+  --sl-border-radius-circle: 50%;
+  --sl-border-radius-pill: 9999px;
+
+  --sl-spacing-3x-small: 0.125rem;
+  --sl-spacing-2x-small: 0.25rem;
+  --sl-spacing-x-small: 0.5rem;
+  --sl-spacing-small: 0.75rem;
+  --sl-spacing-medium: 0.875rem;
+  --sl-spacing-large: 1.125rem;
+  --sl-spacing-x-large: 1.75rem;
+  --sl-spacing-2x-large: 2.25rem;
+  --sl-spacing-3x-large: 3rem;
+  --sl-spacing-4x-large: 4.5rem;
+
+  /* Tooltip */
+  --sl-tooltip-padding: var(--sl-spacing-x-small) var(--sl-spacing-small);
+  /* --sl-tooltip-background-color: var(--sl-color-neutral-0); */
+  /* --sl-tooltip-color: var(--sl-color-neutral-800); */
+  --sl-tooltip-font-weight: 600;
+
+
+
+
+}
+
+
+  .sl-theme-suitespot-light sl-tooltip::part(body) {
+    /* Used to make box shawow for white tooltip in light theme */
+    /* border: 1px solid var(--sl-color-neutral-800); */
+    /* box-shadow: 0px 12px 16px -4px hsla(220, 43%, 11%, 0.08); */
+  }

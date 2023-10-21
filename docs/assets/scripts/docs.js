@@ -78,7 +78,7 @@
 //
 (() => {
   function getTheme() {
-    return localStorage.getItem('theme') || 'auto';
+    return localStorage.getItem('theme') || 'suitespot-light';
   }
 
   function isDark() {
@@ -96,7 +96,9 @@
     updateSelection();
 
     // Toggle the dark mode class
-    document.documentElement.classList.toggle('sl-theme-dark', isDark());
+    document.documentElement.classList.remove(...document.documentElement.classList)
+    document.documentElement.classList.add('flavor-html');
+    document.documentElement.classList.toggle(`sl-theme-${newTheme}`, true);
   }
 
   function updateSelection() {
