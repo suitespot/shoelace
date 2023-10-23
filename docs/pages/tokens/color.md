@@ -34,6 +34,24 @@ Theme tokens give you a semantic way to reference colors in your app. The primar
 
 <div class="color-palette">
   <div class="color-palette__name">
+    Primary<br>
+    <code>--sl-color-secondary-<em>{n}</em></code>
+  </div>
+  <div class="color-palette__example"><div class="color-palette__swatch" style="background-color: var(--sl-color-secondary-50);"></div>50</div>
+  <div class="color-palette__example"><div class="color-palette__swatch" style="background-color: var(--sl-color-secondary-100);"></div>100</div>
+  <div class="color-palette__example"><div class="color-palette__swatch" style="background-color: var(--sl-color-secondary-200);"></div>200</div>
+  <div class="color-palette__example"><div class="color-palette__swatch" style="background-color: var(--sl-color-secondary-300);"></div>300</div>
+  <div class="color-palette__example"><div class="color-palette__swatch" style="background-color: var(--sl-color-secondary-400);"></div>400</div>
+  <div class="color-palette__example"><div class="color-palette__swatch" style="background-color: var(--sl-color-secondary-500);"></div>500</div>
+  <div class="color-palette__example"><div class="color-palette__swatch" style="background-color: var(--sl-color-secondary-600);"></div>600</div>
+  <div class="color-palette__example"><div class="color-palette__swatch" style="background-color: var(--sl-color-secondary-700);"></div>700</div>
+  <div class="color-palette__example"><div class="color-palette__swatch" style="background-color: var(--sl-color-secondary-800);"></div>800</div>
+  <div class="color-palette__example"><div class="color-palette__swatch" style="background-color: var(--sl-color-secondary-900);"></div>900</div>
+  <div class="color-palette__example"><div class="color-palette__swatch" style="background-color: var(--sl-color-secondary-950);"></div>950</div>
+</div>
+
+<div class="color-palette">
+  <div class="color-palette__name">
     Success<br>
     <code>--sl-color-success-<em>{n}</em></code>
   </div>

@@ -7,7 +7,8 @@ toc: false
 
 <div class="splash">
 <div class="splash-start">
-<img class="splash-logo" src="/assets/images/wordmark.svg" alt="Shoelace">
+<!-- <img class="splash-logo" src="/assets/images/wordmark.svg" alt="Shoelace"> -->
+<img class="splash-logo" src="/assets/images/SuiteSpotShoelace.svg" alt="SuiteSpot Shoelace">
 
 # <sl-visually-hidden>Shoelace:</sl-visually-hidden> A forward-thinking library of web components.
 

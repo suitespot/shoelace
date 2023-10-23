@@ -1,5 +1,6 @@
 /* Search plugin */
 :root,
+:root.sl-theme-suitspot-dark,
 :root.sl-theme-dark {
   --docs-search-box-background: var(--sl-color-neutral-0);
   --docs-search-box-border-width: 1px;
@@ -25,6 +26,7 @@
   --docs-search-overlay-background: rgb(0 0 0 / 0.33);
 }
 
+:root.sl-theme-suitespot-dark,
 :root.sl-theme-dark {
   --docs-search-overlay-background: rgb(71 71 71 / 0.33);
 }

@@ -85,7 +85,7 @@
     if (theme === 'auto') {
       return window.matchMedia('(prefers-color-scheme: dark)').matches;
     }
-    return theme === 'dark';
+    return theme === 'dark' || theme === 'suitespot-dark';
   }
 
   function setTheme(newTheme) {

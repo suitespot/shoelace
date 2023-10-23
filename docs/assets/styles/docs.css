@@ -38,6 +38,7 @@
 }
 
 /* Dark theme */
+.sl-theme-suitespot-dark,
 .sl-theme-dark {
   color-scheme: dark;
 
@@ -51,7 +52,8 @@
 
 /* Utils */
 html.sl-theme-dark .only-light,
-html:not(.sl-theme-dark) .only-dark {
+html.sl-theme-suitespot-dark .only-light,
+html:not(.sl-theme-dark):not(.sl-theme-suitespot-dark) .only-dark {
   display: none !important;
 }
 
@@ -228,6 +230,7 @@ code {
   padding: 0.125em 0.25em;
 }
 
+.sl-theme-suitespot-dark code,
 .sl-theme-dark code {
   background-color: rgba(255 255 255 / 0.03);
 }
@@ -421,6 +424,7 @@ pre {
   white-space: pre;
 }
 
+.sl-theme-suitespot-dark pre,
 .sl-theme-dark pre {
   background-color: var(--sl-color-neutral-50);
 }
@@ -980,7 +984,7 @@ main {
   left: 0.25rem;
   height: auto;
   width: auto;
-  color: black;
+  color: var(--sl-color-neutral-1000);
   border: none;
   border-radius: 50%;
   background: var(--sl-color-neutral-0);
@@ -998,6 +1002,7 @@ main {
   }
 }
 
+.sl-theme-suitespot-dark #menu-toggle,
 .sl-theme-dark #menu-toggle {
   color: white;
 }
@@ -1089,14 +1094,18 @@ html.sidebar-open #menu-toggle {
   font-size: 1.25rem;
 }
 
+.sl-theme-suitespot-dark #theme-selector sl-button::part(base),
 .sl-theme-dark #theme-selector sl-button::part(base) {
   color: var(--sl-color-neutral-1000);
 }
 
+.sl-theme-suitespot-dark #icon-toolbar,
 .sl-theme-dark #icon-toolbar {
   background: var(--sl-color-neutral-200);
 }
 
+.sl-theme-suitespot-dark #icon-toolbar button,
+.sl-theme-suitespot-dark #icon-toolbar a,
 .sl-theme-dark #icon-toolbar button,
 .sl-theme-dark #icon-toolbar a {
   color: var(--sl-color-neutral-1000);
