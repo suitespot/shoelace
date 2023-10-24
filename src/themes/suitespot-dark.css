@@ -4,13 +4,14 @@
 :root.sl-theme-suitespot-dark {
   color-scheme: dark;
 
-  --sl-font-sans: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --sl-font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
   /*
    * Color Primitives
    */
 
   /* Gray */
-  --sl-color-gray-50:  hsl(240 5.1% 15%);
+  --sl-color-gray-50: hsl(240 5.1% 15%);
   --sl-color-gray-100: hsl(240 5.7% 18.2%);
   --sl-color-gray-200: hsl(240 4.6% 22%);
   --sl-color-gray-300: hsl(240 5% 27.6%);
@@ -36,7 +37,7 @@
   --sl-color-neutral-950: var(--sl-color-gray-950);
 
   /* Teal */
-  --sl-color-teal-50:  hsl(180, 91%, 9%);
+  --sl-color-teal-50: hsl(180, 91%, 9%);
   --sl-color-teal-100: hsl(180, 89%, 15%);
   --sl-color-teal-200: hsl(179, 90%, 21%);
   --sl-color-teal-300: hsl(179, 91%, 25%);
@@ -49,7 +50,7 @@
   --sl-color-teal-950: hsl(180, 43%, 97%);
 
   /* Primary */
-  --sl-color-primary-50:  var(--sl-color-teal-50);
+  --sl-color-primary-50: var(--sl-color-teal-50);
   --sl-color-primary-100: var(--sl-color-teal-100);
   --sl-color-primary-200: var(--sl-color-teal-200);
   --sl-color-primary-300: var(--sl-color-teal-300);
@@ -62,7 +63,7 @@
   --sl-color-primary-950: var(--sl-color-teal-950);
 
   /* Blue whale */
-  --sl-color-bluewhale-50:  hsl(226, 70%, 9%);
+  --sl-color-bluewhale-50: hsl(226, 70%, 9%);
   --sl-color-bluewhale-100: hsl(226, 38%, 16%);
   --sl-color-bluewhale-200: hsl(225, 34%, 20%);
   --sl-color-bluewhale-300: hsl(223, 32%, 26%);
@@ -75,7 +76,7 @@
   --sl-color-bluewhale-950: hsl(216, 45%, 98%);
 
   /* Secondary */
-  --sl-color-secondary-50:  var(--sl-color-bluewhale-50);
+  --sl-color-secondary-50: var(--sl-color-bluewhale-50);
   --sl-color-secondary-100: var(--sl-color-bluewhale-100);
   --sl-color-secondary-200: var(--sl-color-bluewhale-200);
   --sl-color-secondary-300: var(--sl-color-bluewhale-300);
@@ -88,7 +89,7 @@
   --sl-color-secondary-950: var(--sl-color-bluewhale-950);
 
   /* Red */
-  --sl-color-red-50:  #491511;
+  --sl-color-red-50: #491511;
   --sl-color-red-100: #75211b;
   --sl-color-red-200: #a42e26;
   --sl-color-red-300: #c6382e;
@@ -101,7 +102,7 @@
   --sl-color-red-950: #fef8f7;
 
   /* Danger */
-  --sl-color-danger-50:  var(--sl-color-red-50);
+  --sl-color-danger-50: var(--sl-color-red-50);
   --sl-color-danger-100: var(--sl-color-red-100);
   --sl-color-danger-200: var(--sl-color-red-200);
   --sl-color-danger-300: var(--sl-color-red-300);
@@ -114,7 +115,7 @@
   --sl-color-danger-950: var(--sl-color-red-950);
 
   /* Amber */
-  --sl-color-amber-50:  hsl(22, 88%, 10%);
+  --sl-color-amber-50: hsl(22, 88%, 10%);
   --sl-color-amber-100: hsl(22, 88%, 28%);
   --sl-color-amber-200: hsl(22, 84%, 37%);
   --sl-color-amber-300: hsl(22, 82%, 50%);
@@ -127,7 +128,7 @@
   --sl-color-amber-950: hsl(44, 100%, 98%);
 
   /* Warning */
-  --sl-color-warning-50:  var(--sl-color-amber-50);
+  --sl-color-warning-50: var(--sl-color-amber-50);
   --sl-color-warning-100: var(--sl-color-amber-100);
   --sl-color-warning-200: var(--sl-color-amber-200);
   --sl-color-warning-300: var(--sl-color-amber-300);
@@ -179,7 +180,7 @@
   --sl-color-lime-950: hsl(69.5 100% 93.8%);
 
   /* Green */
-  --sl-color-green-50:  hsl(144.3 60.7% 12%);
+  --sl-color-green-50: hsl(144.3 60.7% 12%);
   --sl-color-green-100: hsl(143.8 61.2% 20.2%);
   --sl-color-green-200: hsl(142.8 64.2% 24.1%);
   --sl-color-green-300: hsl(153, 96%, 30%);
@@ -192,7 +193,7 @@
   --sl-color-green-950: hsl(144, 83%, 98%);
 
   /* Success */
-  --sl-color-success-50:  var(--sl-color-green-50);
+  --sl-color-success-50: var(--sl-color-green-50);
   --sl-color-success-100: var(--sl-color-green-100);
   --sl-color-success-200: var(--sl-color-green-200);
   --sl-color-success-300: var(--sl-color-green-300);
@@ -339,7 +340,6 @@
   --sl-color-neutral-0: hsl(240, 5%, 11%);
   --sl-color-neutral-1000: hsl(225, 40%, 98%);
 
-
   /* Focus Properties */
   --sl-input-focus-ring-color: hsl(220 43% 11% / 5%);
 
@@ -378,9 +378,7 @@
   /* --sl-tooltip-background-color: var(--sl-color-neutral-0); */
   /* --sl-tooltip-color: var(--sl-color-neutral-800); */
   --sl-tooltip-font-weight: 600;
-
 }
-
 
 ::selection {
   background-color: var(--sl-color-secondary-300);
@@ -388,24 +386,24 @@
 }
 
 /* Button */
-sl-button[variant="default"]:not([disabled])::part(base):focus-visible {
-    background-color: var(--sl-color-neutral-0);
-    color: var(--sl-color-secondary-700);
+sl-button[variant='default']:not([disabled])::part(base):focus-visible {
+  background-color: var(--sl-color-neutral-0);
+  color: var(--sl-color-secondary-700);
 }
 
-sl-button[variant="default"]:not([disabled])::part(base):hover {
+sl-button[variant='default']:not([disabled])::part(base):hover {
   background-color: var(--sl-color-secondary-200);
   border-color: var(--sl-color-secondary-500);
   color: var(--sl-color-neutral-1000);
 }
 
-sl-button[variant="default"]:not([disabled])::part(base):active {
-    background-color: var(--sl-color-secondary-600);
-    border-color: var(--sl-color-secondary-400);
-    color: var(--sl-color-neutral-0);
+sl-button[variant='default']:not([disabled])::part(base):active {
+  background-color: var(--sl-color-secondary-600);
+  border-color: var(--sl-color-secondary-400);
+  color: var(--sl-color-neutral-0);
 }
 
-sl-button[variant="default"]:not([disabled])::part(base) {
+sl-button[variant='default']:not([disabled])::part(base) {
   border-color: var(--sl-color-secondary-400);
 }
 
@@ -420,5 +418,3 @@ sl-button:not([disabled])::part(base) {
   /* border: 1px solid var(--sl-color-neutral-800); */
   /* box-shadow: 0px 12px 16px -4px hsla(220, 43%, 11%, 0.08); */
 }
-
-

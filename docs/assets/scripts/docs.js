@@ -96,7 +96,7 @@
     updateSelection();
 
     // Toggle the dark mode class
-    document.documentElement.classList.remove(...document.documentElement.classList)
+    document.documentElement.classList.remove(...document.documentElement.classList);
     document.documentElement.classList.add('flavor-html');
     document.documentElement.classList.toggle(`sl-theme-${newTheme}`, true);
   }

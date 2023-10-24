@@ -166,7 +166,9 @@
       const htmlExample = codeBlock.querySelector('.code-preview__source--html > pre > code')?.textContent;
       const reactExample = codeBlock.querySelector('.code-preview__source--react > pre > code')?.textContent;
       const isReact = flavor === 'react' && typeof reactExample === 'string';
-      const isDarkSelected = document.documentElement.classList.contains('sl-theme-dark') || document.documentElement.classList.contains('sl-theme-suitespot-dark');
+      const isDarkSelected =
+        document.documentElement.classList.contains('sl-theme-dark') ||
+        document.documentElement.classList.contains('sl-theme-suitespot-dark');
       const theme = isDarkSelected ? 'dark' : 'light';
       const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
       const isDark = theme === 'dark' || (theme === 'auto' && prefersDark);

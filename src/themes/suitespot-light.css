@@ -4,7 +4,8 @@
 :root.sl-theme-suitespot-light {
   color-scheme: light;
 
-  --sl-font-sans: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --sl-font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
   /*
    * Color Primitives
    */
@@ -22,7 +23,7 @@
   /* --sl-color-primary-950: hsl(180, 50%, 15%); */
 
   /* Teal */
-  --sl-color-teal-50:  hsl(180, 43%, 97%);
+  --sl-color-teal-50: hsl(180, 43%, 97%);
   --sl-color-teal-100: hsl(167, 85%, 89%);
   --sl-color-teal-200: hsl(168, 84%, 78%);
   --sl-color-teal-300: hsl(171, 77%, 64%);
@@ -35,7 +36,7 @@
   --sl-color-teal-950: hsl(180, 91%, 9%);
 
   /* Primary */
-  --sl-color-primary-50:  var(--sl-color-teal-50);
+  --sl-color-primary-50: var(--sl-color-teal-50);
   --sl-color-primary-100: var(--sl-color-teal-100);
   --sl-color-primary-200: var(--sl-color-teal-200);
   --sl-color-primary-300: var(--sl-color-teal-300);
@@ -48,7 +49,7 @@
   --sl-color-primary-950: var(--sl-color-teal-950);
 
   /* Bluewhale */
-  --sl-color-bluewhale-50:  hsl(216, 45%, 98%);
+  --sl-color-bluewhale-50: hsl(216, 45%, 98%);
   --sl-color-bluewhale-100: hsl(216, 38%, 95%);
   --sl-color-bluewhale-200: hsl(219, 35%, 92%);
   --sl-color-bluewhale-300: hsl(219, 31%, 80%);
@@ -61,7 +62,7 @@
   --sl-color-bluewhale-950: hsl(226, 70%, 9%);
 
   /* Secondary */
-  --sl-color-secondary-50:  var(--sl-color-bluewhale-50);
+  --sl-color-secondary-50: var(--sl-color-bluewhale-50);
   --sl-color-secondary-100: var(--sl-color-bluewhale-100);
   --sl-color-secondary-200: var(--sl-color-bluewhale-200);
   --sl-color-secondary-300: var(--sl-color-bluewhale-300);
@@ -82,7 +83,7 @@
   /* --sl-color-danger-600: hsl(4, 74%, 49%); */
   /* --sl-color-danger-700: hsl(4, 76%, 40%); */
 
-  --sl-color-red-50:  #fef8f7;
+  --sl-color-red-50: #fef8f7;
   --sl-color-red-100: #fde7e6;
   --sl-color-red-200: #fcd5d3;
   --sl-color-red-300: #fac1bd;
@@ -94,7 +95,7 @@
   --sl-color-red-900: #75211b;
   --sl-color-red-950: #491511;
 
-  --sl-color-warning-50:  hsl(44, 100%, 98%);
+  --sl-color-warning-50: hsl(44, 100%, 98%);
   --sl-color-warning-100: hsl(44, 100%, 96%);
   --sl-color-warning-200: hsl(44, 98%, 89%);
   --sl-color-warning-300: hsl(44, 99%, 77%);
@@ -106,7 +107,7 @@
   --sl-color-warning-900: hsl(22, 88%, 28%);
   --sl-color-warning-950: hsl(22, 88%, 10%);
 
-  --sl-color-success-50:  hsl(144, 83%, 98%);
+  --sl-color-success-50: hsl(144, 83%, 98%);
   --sl-color-success-100: hsl(144, 83%, 96%);
   --sl-color-success-200: hsl(141, 82%, 90%);
   --sl-color-success-300: hsl(144, 78%, 80%);
@@ -134,7 +135,6 @@
   --sl-color-neutral-0: hsl(0, 0%, 100%);
   --sl-color-neutral-1000: hsl(0, 0%, 13%);
 
-
   /* Focus Properties */
   --sl-input-focus-ring-color: hsl(220 43% 11% / 5%);
 
@@ -161,9 +161,7 @@
   /* --sl-tooltip-background-color: var(--sl-color-neutral-0); */
   /* --sl-tooltip-color: var(--sl-color-neutral-800); */
   --sl-tooltip-font-weight: 600;
-
 }
-
 
 ::selection {
   background-color: var(--sl-color-secondary-200);
@@ -171,24 +169,24 @@
 }
 
 /* Button */
-sl-button[variant="default"]:not([disabled])::part(base):focus-visible {
-    background-color: var(--sl-color-neutral-0);
-    color: var(--sl-color-secondary-700);
+sl-button[variant='default']:not([disabled])::part(base):focus-visible {
+  background-color: var(--sl-color-neutral-0);
+  color: var(--sl-color-secondary-700);
 }
 
-sl-button[variant="default"]:not([disabled])::part(base):hover {
+sl-button[variant='default']:not([disabled])::part(base):hover {
   background-color: var(--sl-color-secondary-200);
   border-color: var(--sl-color-secondary-500);
   color: var(--sl-color-neutral-1000);
 }
 
-sl-button[variant="default"]:not([disabled])::part(base):active {
-    background-color: var(--sl-color-secondary-600);
-    border-color: var(--sl-color-secondary-400);
-    color: var(--sl-color-neutral-0);
+sl-button[variant='default']:not([disabled])::part(base):active {
+  background-color: var(--sl-color-secondary-600);
+  border-color: var(--sl-color-secondary-400);
+  color: var(--sl-color-neutral-0);
 }
 
-sl-button[variant="default"]:not([disabled])::part(base) {
+sl-button[variant='default']:not([disabled])::part(base) {
   border-color: var(--sl-color-secondary-400);
 }
 
@@ -203,4 +201,3 @@ sl-button:not([disabled])::part(base) {
   /* border: 1px solid var(--sl-color-neutral-800); */
   /* box-shadow: 0px 12px 16px -4px hsla(220, 43%, 11%, 0.08); */
 }
-
