@@ -32,7 +32,7 @@ Theme tokens give you a semantic way to reference colors in your app. The primar
   <div class="color-palette__example"><div class="color-palette__swatch" style="background-color: var(--sl-color-primary-950);"></div>950</div>
 </div>
 
-<div class="color-palette">
+<div class="color-palette sst-only">
   <div class="color-palette__name">
     Secondary<br>
     <code>--sl-color-secondary-<em>{n}</em></code>
